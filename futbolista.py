@@ -31,9 +31,10 @@ class Futbolista(Persona,Deportista):
         self._piernaHabil = x
 
     def __str__(self):
-        salida = "Mi nombre es {} soy profesional en el deporte {} Tengo {} años de edad y llevo {} años en el deporte".format(self.getNombre,self.getDeporte,str(self.getEdad),str(self.getAñosPracticando))
+        salida = "Mi nombre es {} soy profesional en el deporte {} Tengo {} años de edad y llevo {} años en el deporte".format(self.getNombre(),self.getDeporte(),str(self.getEdad()),str(self.getAñosPracticando()))
         return salida
 
-p1 = Futbolista("Juan Pablo", 30, "1,80", "M", 12, 400, 1, "Derecha")
+"""p1 = Futbolista("Juan Pablo", 30, "1,80", "M", 12, 400, 1, "Derecha")
 
 print(p1.getsexo())
+print(p1.__str__())"""
