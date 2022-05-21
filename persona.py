@@ -18,7 +18,7 @@ class Persona():
     def getAltura(self):
         return self._altura
 
-    def getsexo(self):
+    def getSexo(self):
         return self._sexo
 
     def setNombre(self, x):
